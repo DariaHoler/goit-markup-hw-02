@@ -15,6 +15,10 @@ body{
     /*колір для видимості заголовків білого кольору*/
 }
 
+address {
+    font-style: normal;
+}
+
 .list{
     list-style: none;
 }
@@ -161,6 +165,7 @@ body{
     color: var(--header-text-color);  
 }
 .footer-text{
+    font-family: Roboto;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -169,18 +174,18 @@ body{
 }
 .footer-mail,
 .footer-tel{
-    font-weight: 500;
+    font-family: Roboto;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     
     color: var(--second-text-color);
 }
 .filter-btn{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
 
     color:var(--header-text-color);
